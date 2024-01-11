@@ -1,0 +1,250 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+style{
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Salsa&display=swap');
+}
+
+
+
+body{
+    background-image:url("road.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+}
+
+nav{
+    background-color: black;
+    padding: 13px 23px;
+    position: sticky;
+    top:0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.logo{
+    display: inline-block;
+}
+
+.logo-title{
+    display: inline-block;
+    margin: 0;
+    color: white;
+    font-family: Verdana;
+    font-size: 18px;
+    position: relative;
+    top: -40px;
+    bottom: 15px;
+}
+
+.links{
+    float:right;
+    position: relative;
+    top:35px;
+    transition: 3s;
+}
+
+.link{
+    padding: 10px 25px;
+    font-family: Verdana;
+    text-decoration: none;
+    border-radius: 25px;
+    color:white;
+    transition: 0.2s;
+}
+
+.link:hover{
+    background-color: gold;
+    padding: 10px 30px;
+    color: black;
+}
+
+
+.main{
+    line-height: 30%;
+    width: auto;
+    height: 700px;
+    
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Nunito', Verdana;
+    font-weight: 1000px;
+    font-size: 180px;
+    padding-top: 30px;
+}
+
+#explore{
+    text-align: center;
+    color: white;
+    font-family: 'Nunito', Verdana;
+    font-weight: 250px;
+    font-size: 20px;
+    line-height: 70%;
+    position: relative;
+}
+
+#home{
+    text-shadow: 1px -1px 2px rgba(0,0,0,0.6);
+}
+
+
+.first{
+    color:white;
+    background-color: rgba(0, 0, 0, 0.673);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 700px;
+    border: 1px solid rgba(0, 0, 0, 0.673);
+    font-size:30px;
+}
+
+.about-me {
+    color: white;
+    height: 400px;
+    width: 700px;
+}
+
+#greetings{
+    font-family: 'Bell MT', Verdana;
+}
+
+#bea{
+    text-align-last: left;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+button {
+    border-radius: 15px;
+    border: 1px solid rgb(189, 187, 187);
+    width: 300px;
+    height: 45px;
+    background-color: rgb(68, 66, 66);
+    font-size: 20px;
+    font-family: 'Nunito', Verdana;
+    font-weight: 20px;
+    color: #fcfbfb;
+    cursor: pointer;
+    transition: 0.2s;
+    text-align: center;
+  }
+  
+  button:hover {
+    background-color: gold;
+    padding: 10px 30px;
+    color: black;
+  }
+
+
+footer{
+    background-color: white;
+    padding: 5px 10px;
+    position: relative;
+    bottom: 0;
+}
+
+#footer{
+    color:rgb(47, 46, 46);
+    font-family: Verdana;
+    font-size: 15px;
+    text-indent: 30px;
+}
+
+.gmail{
+    color:rgb(47, 46, 46);
+    font-family: Verdana;
+    text-decoration: none;
+    font-size: 13px;
+    text-indent: 30px;
+    transition: 0.2s;
+    display: inline-block;
+    position: relative;
+}
+
+.gmail:hover{
+    color:gold
+}
+
+#footer,
+.gmail {
+  text-align: left;
+}
+
+/*My Activities*/
+
+header {
+    background-color: rgb(0, 0, 0);
+    color: rgb(250, 248, 248);
+    text-align: center;
+    padding: 1em 0;
+}
+
+.my-act{
+    font-size: 50px;
+    font-family: 'Bell MT', Verdana;
+}
+
+.act-home{
+    background-color: rgb(87, 87, 87);
+}
+
+.act-link{
+    padding: 10px 25px;
+    font-family: Verdana;
+    text-decoration: none;
+    border-radius: 25px;
+    color:white;
+    transition: 0.2s;
+}
+
+.act-link:hover{
+    background-color: gold;
+    padding: 10px 30px;
+    color: black;
+}
+
+.box-act{
+    padding: 130px;
+}
+
+.box{
+    width: 100px;
+    height: 80px;
+    background-color: gold;
+    margin-top: 10px;
+    display:inline-block;
+    padding: 10px 25px;
+    font-family: Verdana;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: 0.2s;
+}
+
+h4{
+    text-align: center;
+}
+
+#num{
+    text-decoration: none;
+    color:rgb(24, 24, 24);
+}
+
+.box:hover{
+    background-color: black;
+    padding: 10px 30px;
+    color: gold;
+}
+
+#num:hover{
+    color: gold;
+}
+
